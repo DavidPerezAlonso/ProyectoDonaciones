@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Vista.ControlUIMenuPrincipal">
+   <children>
+      <Button fx:id="btn_donantes" layoutX="198.0" layoutY="24.0" mnemonicParsing="false" onAction="#Donantes" prefHeight="72.0" prefWidth="179.0" text="Donantes" />
+      <Button fx:id="btn_donaciones" layoutX="198.0" layoutY="128.0" mnemonicParsing="false" onAction="#Donaciones" prefHeight="72.0" prefWidth="179.0" text="Donaciones" />
+      <Button fx:id="btn_informes" layoutX="198.0" layoutY="240.0" mnemonicParsing="false" onAction="#Informes" prefHeight="72.0" prefWidth="179.0" text="Informes" />
+   </children>
+</AnchorPane>
