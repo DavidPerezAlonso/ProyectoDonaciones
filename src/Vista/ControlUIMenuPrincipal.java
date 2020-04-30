@@ -19,6 +19,7 @@ public class ControlUIMenuPrincipal {
 
 		// Aquí el código para abrir pantalla Donantes
 		System.out.println("Donantes");
+		
 
 	}
 
